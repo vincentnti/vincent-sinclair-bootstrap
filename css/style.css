@@ -1,3 +1,14 @@
 body {
   background-color: #ffff;
 }
+nav {
+  height: 50px;
+  margin-bottom: 10px;
+}
+img {
+  width: auto;
+}
+.example {
+  background-color: lightgray;
+  padding: 10px;
+}
