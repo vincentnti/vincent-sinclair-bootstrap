@@ -1,9 +1,12 @@
-body {
-  background-color: #ffff;
-}
+/*Universal styling*/
 nav {
   height: 50px;
   margin-bottom: 10px;
+}
+
+/*Style for html/css page*/
+body {
+  background-color: #ffff;
 }
 img {
   width: auto;
@@ -11,4 +14,18 @@ img {
 .example {
   background-color: lightgray;
   padding: 10px;
+}
+
+/*Style for greeting page!*/
+body,
+html {
+  height: 100% !important;
+}
+
+.greeting {
+  padding-left: 15%;
+  padding-right: 15%;
+
+  font-size: 50px;
+  text-align: center;
 }
