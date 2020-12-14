@@ -4,6 +4,18 @@ nav {
   margin-bottom: 10px;
 }
 
+.arrow {
+  padding: 10px;
+  height: 100vh;
+}
+.arrow img {
+  width: 40px;
+}
+
+.content {
+  margin: 10px;
+}
+
 /*Style for html/css page*/
 body {
   background-color: #ffff;
@@ -22,10 +34,13 @@ html {
   height: 100% !important;
 }
 
+.city-back {
+  background-image: url("../background.jpeg");
+  overflow: hidden;
+}
 .greeting {
   padding-left: 15%;
   padding-right: 15%;
-
   font-size: 50px;
   text-align: center;
 }
