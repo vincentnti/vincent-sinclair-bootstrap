@@ -11,22 +11,25 @@ nav {
 .arrow {
   padding: 10px;
   height: 98vh;
+  user-select: none;
 }
 .arrow img {
   width: 40px;
 }
 .arrow:hover {
-  background-color: #0d6efd;
+  background-color: rgba(129, 130, 136, 0.2);
+  transition: color 0.5s, background-color 0.5s;
 
   cursor: pointer;
-
-  border-style: solid;
-  border-radius: 10px;
-  border-color: lightblue;
 }
 
 .content {
   margin: 10px;
+}
+
+.seperator {
+  /*min-width: 40vh;
+  max-width: 95vh;*/
 }
 
 /*Style for html/css page*/
@@ -56,4 +59,11 @@ html {
   padding-right: 15%;
   font-size: 50px;
   text-align: center;
+}
+
+.navigation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: white;
 }
