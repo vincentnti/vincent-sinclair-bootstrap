@@ -1,4 +1,8 @@
 /*Universal styling*/
+body {
+  overflow: hidden;
+}
+
 nav {
   height: 50px;
   margin-bottom: 10px;
@@ -6,10 +10,19 @@ nav {
 
 .arrow {
   padding: 10px;
-  height: 100vh;
+  height: 98vh;
 }
 .arrow img {
   width: 40px;
+}
+.arrow:hover {
+  background-color: #0d6efd;
+
+  cursor: pointer;
+
+  border-style: solid;
+  border-radius: 10px;
+  border-color: lightblue;
 }
 
 .content {

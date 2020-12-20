@@ -3,20 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Presentation</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Presentation</a>
-      <a class="navbar-brand" href="#">HTML/CSS</a>
-      <a class="navbar-brand" href="#">Element</a>
-      <a class="navbar-brand" href="#">3rd</a>
-      <a class="navbar-brand" href="#">4th</a>
-      <a class="navbar-brand" href="#">5th</a>
-    </nav>
-    <div class="d-flex align-items-center">
+    <div class="d-flex align-items-center content">
+      <div
+        onclick="location.href='index.html'"
+        class="arrow d-flex align-items-center"
+      >
+        <img src="../svgs/arrow-left-short.svg" />
+      </div>
       <div class="container-fluid">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png"
@@ -73,8 +71,12 @@
           <hr />
         </div>
       </div>
+      <div
+        onclick="location.href='element.html'"
+        class="arrow d-flex align-items-center"
+      >
+        <img src="../svgs/arrow-right-short.svg" />
+      </div>
     </div>
-    <ul></ul>
-    <ol></ol>
   </body>
 </html>
