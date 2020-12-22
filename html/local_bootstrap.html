@@ -8,14 +8,44 @@
     <title>Presentation</title>
   </head>
   <body>
+    <!--
+      classen d-flex applicerar flexbox. Det låter oss använda oss av
+      andra flexbox funktioner.
+      i detta fallet använder vi oss av align-items-center classen 
+      från bootstrap
+      vilket centrerar content horizontellt.
+
+      content classen applicerar lite padding och margin, font och annat fluff så att
+      det passar in med allt annat från bootstrap
+    -->
     <div class="d-flex align-items-center content">
+      <!--
+        classen arrow applicerar knapp funktionalitet som liknar en bok
+        den låter användaren att byta sidor utan att behöva klicea igenom
+        menyer
+
+        classen d-flex applicerar flexbox.
+
+        align-items-center centrerar pilen verticalt
+      -->
       <div
         onclick="location.href='flexbox_grid.html'"
         class="arrow d-flex align-items-center"
       >
         <img src="../svgs/arrow-left-short.svg" />
       </div>
-      <div class="seperator container-fluid"><!--This is a seperator--></div>
+      <div class="container-fluid">
+        <!--Detta är en separerare som använder sig av 
+        container fluid classen som lägger till standard 
+        bootstrap styling som anpassar sig till storleks bytande då
+        den ger oss en full bredd
+        
+        det använder sig även av seperator classen som sätter spacing mellan
+      --></div>
+      <!--använder sig av 
+        container fluid classen som lägger till standard 
+        bootstrap styling som anpassar sig till storleks bytande då
+        den ger oss en full bredd-->
       <div class="container-fluid">
         <img src="../imgs/bootstrap_logo.png" />
         <h1>Vad är local Bootstrap?</h1>
@@ -35,7 +65,23 @@
         </p>
         <hr />
       </div>
-      <div class="seperator container-fluid"><!--This is a seperator--></div>
+      <div class="container-fluid">
+        <!--Detta är en separerare som använder sig av 
+        container fluid classen som lägger till standard 
+        bootstrap styling som anpassar sig till storleks bytande då
+        den ger oss en full bredd
+        
+        det använder sig även av seperator classen som sätter spacing mellan
+      --></div>
+      <!--
+        classen arrow applicerar knapp funktionalitet som liknar en bok
+        den låter användaren att byta sidor utan att behöva klicea igenom
+        menyer
+
+        classen d-flex applicerar flexbox.
+
+        align-items-center centrerar pilen verticalt
+      -->
       <div
         onclick="location.href='cdn.html'"
         class="arrow d-flex align-items-center"

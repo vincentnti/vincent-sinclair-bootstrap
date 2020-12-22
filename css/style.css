@@ -1,13 +1,25 @@
 /*Universal styling*/
+/*
+body
+  här gömmer vi scrollbar
+*/
 body {
   overflow: hidden;
+  background-color: #ffff;
+}
+/*
+på bodyn och i html sätter vi height till 100 för att använda oss av 100% av höjden.
+*/
+body,
+html {
+  height: 100% !important;
 }
 
-nav {
-  height: 50px;
-  margin-bottom: 10px;
-}
-
+/*
+.arrow och .arrow image
+  används för att positionera pilarna. genom padding och height och width
+  det gör även så att det inte är selectable
+*/
 .arrow {
   padding: 10px;
   height: 98vh;
@@ -16,6 +28,13 @@ nav {
 .arrow img {
   width: 40px;
 }
+
+/*
+.arrow:hover
+  Används för knapp funktionalitet som liknar en bok, den visar användaren att den är clickable
+  sätter bakgrunds färgen till en grå och sedan byter den till den genomm en transition
+  när användaren sätter muspekaren över en pil ändras även musen for att visa att den är clickable
+*/
 .arrow:hover {
   background-color: rgba(129, 130, 136, 0.2);
   transition: color 0.5s, background-color 0.5s;
@@ -23,19 +42,16 @@ nav {
   cursor: pointer;
 }
 
+/*
+.content
+  här ändrar vi margin till 10 pixlar istället, set generellt bättre ut
+*/
 .content {
   margin: 10px;
 }
 
-.seperator {
-  /*min-width: 40vh;
-  max-width: 95vh;*/
-}
+/*Style for dualband*/
 
-/*Style for html/css page*/
-body {
-  background-color: #ffff;
-}
 img {
   width: auto;
   min-width: 50px;
@@ -46,25 +62,22 @@ img {
 }
 
 /*Style for greeting page!*/
-body,
-html {
-  height: 100% !important;
-}
 
+/*
+.city-back
+  sätter bakgrundsbilden och gömmer scroll
+*/
 .city-back {
   background-image: url("../background.jpeg");
   overflow: hidden;
 }
+
+/*
+i greeting sätter vi padding här för att sätta texten där vi vill. vi ändrar även font och text för centrering och storlek
+*/
 .greeting {
   padding-left: 15%;
   padding-right: 15%;
   font-size: 50px;
   text-align: center;
-}
-
-.navigation {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background-color: white;
 }

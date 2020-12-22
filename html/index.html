@@ -7,15 +7,23 @@
     <link rel="stylesheet" href="../css/style.css" />
     <title>Presentation</title>
   </head>
+  <!--
+    cityback taggen sätter bakgrund 
+  -->
   <body class="city-back">
+    <!--Vi använder oss av row och h-100 for att skapa en rad-->
     <div class="row h-100">
+      <!--vi skapar sedan en column med col-sm-12 som centrerar verticalt-->
       <div class="col-sm-12 my-auto">
+        <!--jumbotron skapar en container som håller vår hälsning. greeting ändrar storlek på inre elementen såsom text storlek och padding-->
         <div class="greeting jumbotron">
           <h1>Information om vanliga begrepp och koncept för webben</h1>
           <h2>Är du redo?</h2>
           <p style="font-size: 0.5em">
             Detta är en kort presentation gjord med hjälp av Bootstrap.
           </p>
+          <!--Här skapar vi en bootstrap knapp med btn och btn-primary. btn signalerar att det är en knapp medans btn-primary 
+            säger att den är av typ primary vilket ger oss färg och design -->
           <div
             type="button"
             onclick="location.href='toc.html'"

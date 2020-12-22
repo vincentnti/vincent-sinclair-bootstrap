@@ -8,14 +8,43 @@
     <title>Presentation</title>
   </head>
   <body>
+    <!--
+      classen d-flex applicerar flexbox. Det låter oss använda oss av
+      andra flexbox funktioner.
+      i detta fallet använder vi oss av align-items-center classen 
+      från bootstrap
+      vilket centrerar content horizontellt.
+
+      content classen applicerar lite padding och margin, font och annat fluff så att
+      det passar in med allt annat från bootstrap
+    -->
     <div class="d-flex align-items-center content">
+      <!--
+        classen arrow applicerar knapp funktionalitet som liknar en bok
+        den låter användaren att byta sidor utan att behöva klicea igenom
+        menyer
+
+        classen d-flex applicerar flexbox.
+
+        align-items-center centrerar pilen verticalt
+
+      -->
       <div
         onclick="location.href='local_bootstrap.html'"
         class="arrow d-flex align-items-center"
       >
         <img src="../svgs/arrow-left-short.svg" />
       </div>
-      <div class="seperator container-fluid"><!--This is a seperator--></div>
+      <div class="container-fluid">
+        <!--Detta är en separerare som använder sig av 
+        container fluid classen som lägger till standard 
+        bootstrap styling som anpassar sig till storleks bytande då
+        den ger oss en full bredd
+      --></div>
+      <!--använder sig av 
+        container fluid classen som lägger till standard 
+        bootstrap styling som anpassar sig till storleks bytande då
+        den ger oss en full bredd-->
       <div class="container-fluid">
         <img src="../svgs/bunny_cdn.svg" />
         <h1>Vad är CDN?</h1>
@@ -33,7 +62,22 @@
         </p>
         <hr />
       </div>
-      <div class="seperator container-fluid"><!--This is a seperator--></div>
+      <div class="container-fluid">
+        <!--Detta är en separerare som använder sig av 
+        container fluid classen som lägger till standard 
+        bootstrap styling som anpassar sig till storleks bytande då
+        den ger oss en full bredd
+      --></div>
+      <!--
+        classen arrow applicerar knapp funktionalitet som liknar en bok
+        den låter användaren att byta sidor utan att behöva klicea igenom
+        menyer
+
+        classen d-flex applicerar flexbox.
+
+        align-items-center centrerar pilen verticalt
+
+      -->
       <div
         onclick="location.href='meta.html'"
         class="arrow d-flex align-items-center"

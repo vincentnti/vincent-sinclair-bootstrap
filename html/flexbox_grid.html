@@ -8,13 +8,37 @@
     <title>Presentation</title>
   </head>
   <body>
+    <!--
+      classen d-flex applicerar flexbox. Det låter oss använda oss av
+      andra flexbox funktioner.
+      i detta fallet använder vi oss av align-items-center classen 
+      från bootstrap
+      vilket centrerar content horizontellt.
+
+      content classen applicerar lite padding och margin, font och annat fluff så att
+      det passar in med allt annat från bootstrap
+    -->
     <div class="d-flex align-items-center content">
+      <!--
+        classen arrow applicerar knapp funktionalitet som liknar en bok
+        den låter användaren att byta sidor utan att behöva klicea igenom
+        menyer
+
+        classen d-flex applicerar flexbox.
+
+        align-items-center centrerar pilen verticalt
+
+      -->
       <div
         onclick="location.href='id_class.html'"
         class="arrow d-flex align-items-center"
       >
         <img src="../svgs/arrow-left-short.svg" />
       </div>
+      <!--använder sig av 
+        container fluid classen som lägger till standard 
+        bootstrap styling som anpassar sig till storleks bytande då
+        den ger oss en full bredd-->
       <div class="container-fluid">
         <h1>Vad är Flexbox?</h1>
         <hr />
@@ -37,6 +61,16 @@
         </p>
         <hr />
       </div>
+      <!--
+        classen arrow applicerar knapp funktionalitet som liknar en bok
+        den låter användaren att byta sidor utan att behöva klicea igenom
+        menyer
+
+        classen d-flex applicerar flexbox.
+
+        align-items-center centrerar pilen verticalt
+
+      -->
       <div
         onclick="location.href='local_bootstrap.html'"
         class="arrow d-flex align-items-center"
